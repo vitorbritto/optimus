@@ -1,7 +1,7 @@
 ![Optimus Logo](src/logo.jpg "Optimus")
 
 
-## Introduction
+## Introduction [![Code Climate](https://codeclimate.com/github/vitorbritto/optimus.png)](https://codeclimate.com/github/vitorbritto/optimus)
 
 Optimus is a simple way to bind an initial test runner environment using a JavaScript testing framework of your choice. It's highly recommended you care about quality and maintainable codes. Tests are the best way to do that.
 
