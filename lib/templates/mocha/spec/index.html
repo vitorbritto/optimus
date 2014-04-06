@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Mocha Spec Runner</title>
+        <link rel="stylesheet" href="vendor/mocha/mocha.css" />
+    </head>
+    <body>
+        <div id="mocha"></div>
+        <script src="vendor/mocha/mocha.js"></script>
+        <script src="vendor/chai/chai.js"></script>
+        <script>
+        var expect = chai.expect;
+
+        mocha.setup({
+            ui: 'bdd',
+            ignoreLeaks: true
+        });
+
+        onload = function () {
+            mocha.run();
+        };
+        </script>
+        <script src="TODO"></script> <!-- Include source -->
+        <script src="spec.js"></script>
+    </body>
+</html>
