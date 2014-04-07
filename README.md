@@ -31,7 +31,13 @@ $ git clone git://github.com/vitorbritto/optimus.git [project-name]
 $ cd [project-name]
 ```
 
-**3** - Run the program with: `node optimus` <br/>
+**3** - Install dependencies and run the program
+
+```bash
+$ npm i
+$ node optimus
+```
+
 **4** - Profit!
 
 ### Update Dependencies
