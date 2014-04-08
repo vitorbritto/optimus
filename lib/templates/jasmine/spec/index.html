@@ -7,32 +7,18 @@
         <link rel="stylesheet" type="text/css" href="vendor/jasmine/lib/jasmine-core/jasmine.css">
         <script src="vendor/jasmine/lib/jasmine-core/jasmine.js"></script>
         <script src="vendor/jasmine/lib/jasmine-core/jasmine-html.js"></script>
-        <script src="TODO"></script> <!-- Include source -->
-        <script src="spec.js"></script>
-        <script>
-            (function() {
-                var jasmineEnv = jasmine.getEnv();
 
-                jasmineEnv.updateInterval = 1000;
+        <!-- Include source files -->
+        <script src="../app/scripts/modules/TODO.js"></script>
 
-                var trivialReporter = new jasmine.TrivialReporter();
+        <!-- Include spec helpers -->
+        <script src="helpers/TODO.js"></script>
 
-                jasmineEnv.addReporter(trivialReporter);
+        <!-- Include specs modules -->
+        <script src="modules/TODO.js"></script>
 
-                jasmineEnv.specFilter = function(spec) {
-                    return trivialReporter.specFilter(spec);
-                };
-
-                var currentWindowOnload = window.onload;
-
-                window.onload = function() {
-                    if (currentWindowOnload) {
-                        currentWindowOnload();
-                    }
-                    jasmineEnv.execute();
-                };
-            })();
-        </script>
+        <!-- init Jasmine -->
+        <script src="init.js"></script>
     </head>
     <body>
     </body>

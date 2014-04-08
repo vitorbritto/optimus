@@ -9,19 +9,18 @@
         <div id="mocha"></div>
         <script src="vendor/mocha/mocha.js"></script>
         <script src="vendor/chai/chai.js"></script>
-        <script>
-        var expect = chai.expect;
 
-        mocha.setup({
-            ui: 'bdd',
-            ignoreLeaks: true
-        });
+        <!-- init Mocha -->
+        <script src="init.js"></script>
 
-        onload = function () {
-            mocha.run();
-        };
-        </script>
-        <script src="TODO"></script> <!-- Include source -->
-        <script src="spec.js"></script>
+        <!-- Include source files -->
+        <script src="../app/scripts/modules/TODO.js"></script>
+
+        <!-- Include spec helpers -->
+        <script src="helpers/TODO.js"></script>
+
+        <!-- Include specs modules -->
+        <script src="modules/TODO.js"></script>
+
     </body>
 </html>

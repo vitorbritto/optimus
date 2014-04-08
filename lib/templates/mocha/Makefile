@@ -2,7 +2,7 @@ test:
 	grunt test
 
 watch-test:
-	grunt
+	grunt watch
 
 init-test:
 	git submodule add https://github.com/visionmedia/mocha.git spec/vendor/mocha

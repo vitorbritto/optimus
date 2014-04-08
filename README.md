@@ -59,9 +59,9 @@ Each boilerplate folder contains a _Makefile_ with these tasks:
 
 The boilerplates also contain [grunt](http://gruntjs.com/) files, so you can easily re-run the tests when files change.
 
-```sh
-$ grunt
-```
+- `grunt test`: Execute Spec Runner.
+- `grunt lint`: Lint Scripts
+- `grunt watch`: Lint script files, run the test suite and watch for changes.
 
 
 ## General Structure
@@ -70,12 +70,22 @@ Each boilerplate contains these standard files:
 
 ```
 .
+├── .jshintrc
 ├── .travis.yml
+├── Gruntfile.js
 ├── Makefile
+├── README.md
+├── app
+│   ├── scripts
+│   │   └── modules
+│   └── styles
 ├── package.json
+├── public
 └── spec
+    ├── helpers
     ├── index.html
-    └── spec.js
+    ├── init.js
+    └── modules
 ```
 
 > Some of these frameworks don't have a grunt plugin. Thus, only makefile will be available to execute the tasks with the framework's command line tool.

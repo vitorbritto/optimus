@@ -62,6 +62,7 @@
         "process"    : false,
         "__dirname"  : false,
         "exports"    : false,
+        "expect"     : false,
         "describe"   : false,
         "it"         : false,
         "before"     : false,
