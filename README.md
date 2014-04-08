@@ -59,9 +59,9 @@ Each boilerplate folder contains a _Makefile_ with these tasks:
 
 The boilerplates also contain [grunt](http://gruntjs.com/) files, so you can easily re-run the tests when files change.
 
+- `grunt`: Lint script files, run the test suite and watch for changes.
 - `grunt test`: Execute Spec Runner.
 - `grunt lint`: Lint Scripts
-- `grunt watch`: Lint script files, run the test suite and watch for changes.
 
 
 ## General Structure
