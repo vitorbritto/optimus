@@ -16,7 +16,7 @@ So far, Optimus includes tests with:
 - Jasmine
 - QUnit
 
-> Check the [TODO List](https://github.com/vitorbritto/optimus/issues/1) for next updates.
+> Check [Issues](https://github.com/vitorbritto/optimus/issues/) for next updates.
 
 
 ## Getting Started
