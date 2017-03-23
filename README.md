@@ -96,7 +96,7 @@ Each boilerplate contains these standard files:
 **Tools**
 
 - [QUnit](http://qunitjs.com/) - QUnit is a powerful, easy-to-use JavaScript unit testing framework.
-- [Mocha](http://visionmedia.github.io/mocha/) - Mocha is a feature-rich JavaScript test framework running on node.js and the browser, making asynchronous testing simple and fun.
+- [Mocha](http://mochajs.org/) - Mocha is a feature-rich JavaScript test framework running on node.js and the browser, making asynchronous testing simple and fun.
 - [Jasmine](http://jasmine.github.io/2.0/introduction.html) - BDD, framework independent, easy integration with Ruby projects and continuous builds. Allows for both DOM-less testing and asynchronous testing.
 - [Chai](chaijs.com) - Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
 
